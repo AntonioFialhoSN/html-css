@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo de caixas</title>
+    <style>
+        /*box-level*/
+        h1{
+            height: 40px;
+            width: 400px;
+            background-color: aqua;
+            text-align: center;
+            
+            border-width: 10px;
+            border-style: solid;
+            border-color: rgb(223, 76, 76);
+
+            /*SIMPLIFICANDO: border: 10px solid rgb(223, 76, 76)*/
+
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            padding-right: 10px;
+
+            /*SIMPLIFICANDO: padding: 10px 10px 10px 10px >  igual ponteiro de relogio top rigth botton left, e se todos forem iguais padding: 10px*/
+
+            margin-top: 40px;
+            margin-right: 40px;
+            margin-bottom: 40px;
+            margin-left: 40px;
+
+            /*SIMPLIFICANDO: margin: 40px - semelhante ao padding*/
+            /*margin: auto;  Centraliza no meio
+            alem de colocar magin: 10px auto 10px auto, tbm centraliza
+            */
+
+            outline-width: 5px;
+            outline-color: rgb(4, 129, 160);
+            outline-style: dashed;
+
+            /*outline: 5px dashed rgb(4, 129, 160)*/
+        }
+        /*inline-level*/
+        a{
+            border-width: 10px;
+            border-style: solid;
+            border-color: aquamarine;
+            background-color: aqua;
+        }
+
+        /*Dar para transformar inline em box e box em inlene basta. display: inline ou block, além de um inline-block*/
+    </style>
+</head>
+<body>
+    <h1> Exemplo de caixa box-level</h1>
+    <p>Parágrafo também são exemplos de box-level, mas os <a href="@">links são de caixas inline-level</a>. Vamos ver com tudo isso funciona</p>
+    
+</body>
+</html>

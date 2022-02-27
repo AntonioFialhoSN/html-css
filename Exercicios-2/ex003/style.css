@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/*
+HTML  É id=
+CSS É #
+
+HTML É class=
+CSS É .
+
+id é unico para o mesmo elemento
+class é varios
+*/
+
+
+body{
+    background-color: rgb(108, 216, 126);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(17, 17, 17);
+}
+h1#principal{
+    color: blue;
+    text-align: center;
+}
+.secundario{
+    color: rgb(255, 0, 0);
+    text-align: right;
+}
+h2{
+    color: black;
+}
+.destaque{
+    background-color: rgb(0, 119, 255);
+}

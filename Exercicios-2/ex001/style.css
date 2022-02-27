@@ -1,0 +1,39 @@
+@charset "UTF-8";
+*{
+    /*height: 100%; /* altura*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient( 5deg,#05F2F2, #034AA6);
+}
+main{
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #01295e86;
+    width: 600px;
+    padding: 15px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    color: #D94E5A;
+    text-shadow: 1px 1px 2px rgba(102, 36, 42, 0.773);
+    /* o 1px direita, 2px baixo e 3px espessura*/
+}
+h2{
+    text-align: center;
+    color: #162C40;
+    text-shadow: 1px 1px 2px rgba(17, 33, 48, 0.588);
+}
+
+p{
+    text-align: justify;
+    color: black;
+}
+
+/*sites para paleta de cores: 
+https://color.adobe.com/pt/trends
+
+https://coolors.co/ffffff-00171f-003459-007ea7-00a8e8
+
+https://paletton.com/#uid=13o0u0kvwM05iI37rI3ZZsU+5rg*/

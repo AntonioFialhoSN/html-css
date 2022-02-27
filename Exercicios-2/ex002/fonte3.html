@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'Appashi';
+            src: url('fontes/Apasih.otf') format('opentype'), url('fontes/Apasih.ttf') format('truetype');
+
+            /*
+            Tipos de format()
+            - opentype
+            - truetype
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'Appashi','Times', 'serif';
+            font-size: 3em;
+        }
+        /*https://www.dafont.com/pt/*/
+    </style>
+</head>
+<body>
+    <h1>Titulo 1</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus praesentium vel officia, deserunt dicta omnis at ratione iure eveniet fugit molestiae voluptate dolores debitis doloremque sapiente adipisci eum cum nihil! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa corporis nisi quam quae laudantium delectus sit animi libero? Reiciendis impedit quod reprehenderit, adipisci consequatur dolores nisi illum voluptatibus pariatur harum.</p>
+</body>
+</html>

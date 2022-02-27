@@ -1,0 +1,42 @@
+@charset "UTF-8";
+header{
+    background-color: #00171F;
+    height: 630px;
+    width: 300px;
+    border-radius: 0px 10px 10px 0px;
+    margin: -10px;
+    padding-top: 2px;
+    
+}
+
+div.Principal{
+    padding: 5px;
+    background-color: #00171F;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-indent: 2px;
+    margin: 10px;
+    border-top: 10px;
+    border-radius: 10px 0px 0px 10px ;
+    width: 280px; 
+}
+
+.Principal:hover{
+    background-color: white;
+    color: #00171F;
+}
+
+header div input{
+    height: 15px;
+    width: 175px;
+    border-radius: 5px;
+}
+
+header div input:hover{
+    background-color: #003459;
+    color: white;
+}
+div#final{
+    padding-top: 340px;
+}

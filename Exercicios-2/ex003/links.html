@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: black;
+        }
+        a:hover{
+            color: rgb(0, 183, 255);
+            background-color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+
+        }
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(0, 139, 93);
+        }
+        .especial{
+            background-color: rgb(78, 79, 82);
+        }
+        .especial::after{
+            content: '✩' ;
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(0, 139, 93);
+        }
+        .especial::before{
+            content: '✩' ;
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(0, 139, 93);
+        }
+        /*https://erikasarti.com/html/dingbats-simbolos-desenhos/*/
+        /*SELETORES PERSONALIZADOS
+        '#' = id
+        .   = class
+        :   = pseudo-class
+        ::  = pseudo-element
+        >   = clidrem ou filho
+        */
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank"> You tube</a></li>
+        <li><a href="https://www.instagram.com/" class="especial" target="_blank"> Instagram</a></li>
+        <li><a href="https://www.google.com.br/" target="_blank"> Google</a></li>
+    </ul>
+    
+</body>
+</html>
